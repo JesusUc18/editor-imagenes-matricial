@@ -13,7 +13,7 @@
 
 ## 📋 Descripción del Proyecto
 
-Este repositorio contiene mi solución a la práctica de **Fundamentos de Algebra**, donde implemento funciones en JavaScript para Manipular imágenes PNG aplicando operaciones matriciales del álgebra lineal.
+Este repositorio reúne mi solución a la práctica de **Fundamentos de Álgebra**, donde desarrollo funciones en JavaScript para trabajar con imágenes PNG mediante distintas operaciones matriciales basadas en álgebra lineal.
 
 ## 🎯 Objetivos Alcanzados
 
@@ -204,7 +204,7 @@ git log --oneline --graph --decorate
 ## 📧 Contacto
 
 - **Email Institucional:** [jesus.uc@tecdesoftware.edu.mx]
-- **GitHub:** [JesusUc18](https://github.com/TU-USUARIO)
+- **GitHub:** [JesusUc18](https://github.com/JesusUc18)
 
 ---
 
