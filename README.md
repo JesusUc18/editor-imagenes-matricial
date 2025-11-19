@@ -139,6 +139,23 @@ editor-imagenes-matricial/
 
 ---
 
+## 💡 Aprendizajes Clave
+
+### Lo que más me costó
+- **Ejercicio 2.2 (Invertir colores)**: Me enredé un poco entendiendo cómo aplicar 255 - valor a cada canal sin tocar el alpha.
+- **Ejercicio 4.1 **: No entendi como mezclar dos imágenes usando un factor de mezcla.
+  
+### Lo que más me gustó
+- **Probar filtros**: Fue entretenido aplicar escala de grises, sepia o mezcla y ver cómo se transformaba todo.
+  
+### Técnicas aplicadas
+- Uso de `for` loops para iteraciones
+- Operador módulo `%` para determinar paridad
+- Arrays dinámicos con `.push()`
+- Bucles anidados para matrices
+
+---
+
 ## 🔧 Ejemplos de Código
 
 ### Función Favorita: Transponer Matriz
