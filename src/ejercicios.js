@@ -373,8 +373,19 @@ function voltearHorizontal(matriz) {
   
   // Pista: Puedes usar .reverse() en cada fila
   // o construir manualmente invirtiendo el orden
-  
-  return []; // REEMPLAZAR
+  const resultado = [];
+
+  for (let y = 0; y < matriz.length; y++) {
+    const filaInvertida = [...matriz[y]].reverse().map(pixel => ({
+      r: pixel.r,
+      g: pixel.g,
+      b: pixel.b,
+      a: pixel.a
+    }));
+
+    resultado.push(filaInvertida);
+  }
+  return resultado;
 }
 
 /**
