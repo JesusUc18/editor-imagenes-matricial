@@ -321,12 +321,32 @@ function convertirEscalaGrises(matriz) {
   // Para cada pixel:
   // 1. Calcular el valor de gris
   // const gris = 0.299 * pixel.r + 0.587 * pixel.g + 0.114 * pixel.b;
-  // 
   // 2. Asignar ese valor a los tres canales
   // pixelNuevo = {r: gris, g: gris, b: gris, a: pixel.a}
-  
-  return []; // REEMPLAZAR
+
+  const resultado = [];
+
+  for (let y = 0; y < matriz.length; y++) {
+    const filaNueva = [];
+
+    for (let x = 0; x < matriz[y].length; x++) {
+      const pixel = matriz[y][x];
+
+      const gris = Math.round(
+        0.299 * pixel.r + 0.587 * pixel.g + 0.114 * pixel.b
+      );
+
+      filaNueva.push({
+        r: gris, g: gris, b: gris, a: pixel.a
+      });
+    }
+
+    resultado.push(filaNueva);
+  }
+
+  return resultado;
 }
+
 
 // ============================================
 // SECCIÓN 3: TRANSFORMACIONES GEOMÉTRICAS (30 puntos)
