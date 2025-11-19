@@ -1,9 +1,9 @@
 // ============================================
 // EDITOR DE IMÁGENES CON ÁLGEBRA MATRICIAL
 // ============================================
-// Nombre del estudiante: _________________
-// Fecha: _________________
-// Grupo: _________________
+// Nombre del estudiante: Jesús Omar Uc Domínguez
+// Fecha: 18/11/2025
+// Grupo: 1C
 
 const { PNG } = require('pngjs');
 const fs = require('fs');
